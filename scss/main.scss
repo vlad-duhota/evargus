@@ -1,5 +1,18 @@
-body{
-    font-family: "Roboto" ,serif;
+body {
+    font-family: "Roboto", serif;
+}
+
+.custom-btn {
+    font-weight: 900;
+    padding: 10px 20px;
+    border: none;
+    font-size: 10px;
+    text-transform: uppercase;
+    line-height: 12px;
+    text-align: center;
+    color: #ffffff;
+    background: linear-gradient(95.2deg, #b90160 2.23%, #2e3192 99.51%);
+    border-radius: 7px;
 }
 
 .header-top {
@@ -32,4 +45,54 @@ body{
 a {
     color: inherit;
     text-decoration: none;
+}
+
+.hero {
+    padding: 40px 0 50px;
+    h1 {
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 25px;
+        padding: 0 15%;
+        span {
+            display: block;
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 22px;
+        }
+    }
+}
+
+// modal
+.modal-content {
+    padding: 27px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 35px rgba(212, 20, 90, 0.25);
+    .modal-body {
+        padding: 0;
+    }
+    .row {
+        margin: 0;
+    }
+    input,
+    textarea {
+        width: 100%;
+        border: 1px solid #a2a2a2;
+        border-radius: 25px;
+        padding: 8px 10px 9px;
+        margin-bottom: 20px;
+        &::placeholder {
+            font-weight: 300;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+            color: #989898;
+        }
+    }
+    h5 {
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
 }
